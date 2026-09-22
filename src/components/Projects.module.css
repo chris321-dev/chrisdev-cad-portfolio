@@ -1,0 +1,68 @@
+.projects {
+  width: 100%;
+  max-width: 1100px;
+  padding: 5rem 2rem;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  max-width: 650px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.imagePlaceholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.projectCard h3 {
+  margin-bottom: 0.75rem;
+}
+
+.projectCard p {
+  line-height: 1.6;
+}
+
+.projectCard a {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.projectContent {
+  padding-top: 0.5rem;
+}
+
+.projectContent a {
+  text-decoration: none;
+}
